@@ -5,3 +5,8 @@ end
 def down
 end
 end
+
+def change
+  create_table :artists do |t|
+  end
+end
